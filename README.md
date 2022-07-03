@@ -50,3 +50,6 @@ It must be 5 pages
 It must be hosted on github or Rpubs
 
 It must contained some embedded R code that gets run when slidifying the document
+
+
+Link for Shiny app server https://nazaninfarzady.shinyapps.io/ShinyApp/
