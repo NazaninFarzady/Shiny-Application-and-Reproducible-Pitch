@@ -1,6 +1,8 @@
 library(shiny)
 library(datasets)
 library(ggplot2)
+library(dplyr)
+library(rsconnect)
 
 mpgData <- mtcars
 mpgData$am <- factor(mpgData$am, labels = c("Automatic", "Manual"))
@@ -43,5 +45,7 @@ shinyServer(function(input, output) {
       abline(fit(), col=2)
     })
   })
+  
+})
   
 })
